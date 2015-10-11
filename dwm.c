@@ -543,7 +543,6 @@ void buttonpress(XEvent* e)
     Client* c;
     Monitor* m;
     XButtonPressedEvent* ev = &e->xbutton;
-
     click = ClkRootWin;
     /* focus monitor if necessary */
     if ((m = wintomon(ev->window)) && m != selmon) {
