@@ -43,6 +43,7 @@ static const Rule rules[] = {
         { "URxvt",              NULL,           NULL,           1 << 3,         False,          False,          -1 },
         { "Xfce4-appfinder",    NULL,           NULL,           0,              True,           True,           -1 },
         { "Qikec",              NULL,           NULL,           0,              False,          True,           -1 },
+	{ "QtCreator",		NULL,		NULL,		1 << 4,		False,		False,		-1 },
 };
 
 /* layout(s) */
