@@ -10,7 +10,7 @@ static const char colors[NUMCOLORS][ColLast][10] = {
   { "#ff4200", "#ff4200", "#222222" },  // error
   { "#444444", "#ffffff", "#222222" },  // white 5
   { "#444444", "#ffff00", "#222222" },
-  
+
   { "#444444", "#5a7b00", "#222222" },
   { "#444444", "#77a300", "#222222" },
   { "#444444", "#8ec300", "#222222" },
@@ -90,7 +90,7 @@ static Tag tags[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-hist", "/home/ralf/.dmenu_history", "-m", dmenumon, "-fn", dmenufont, "-nb", colors[0][ColBG], "-nf", colors[0][ColFG], "-sb", colors[1][ColBG], "-sf", colors[1][ColFG], NULL };
 static const char *termcmd[]  = { "urxvtc", NULL };
-static const char *quitcmd[] = { "xfce4-session-logout", "-f", NULL };
+static const char *quitcmd[] = { "lxsession-logout", "-p", "", NULL };
 
 static Key keys[] = {
         /* modifier                     key        function        argument */
